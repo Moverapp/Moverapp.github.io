@@ -23,8 +23,10 @@
       "additionalSetColors": []
     },
     "versionFirst": "4.3.0",
-    "uniqCompNum": 13,
-    "versionPublish": "4.3.0"
+    "uniqCompNum": 14,
+    "versionPublish": "4.3.0",
+    "path": "@PROJECT_PATH@",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
@@ -113,7 +115,7 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/oie-transparent33-477x128.png",
+              "src": "@PROJECT_PATH@/assets/images/logo-mover-437x128.png",
               "height": 128,
               "alt": "Mobirise",
               "link": "",
@@ -171,8 +173,8 @@
               "size": 250
             }
           },
-          "title": "ON DEMAND<br>LOGISTICS",
-          "text": "We are on a mission to revolutionize the way you send goods.",
+          "title": "ON DEMAND<br>TEMPS",
+          "text": "We are on a mission to revolutionize the way you recruit.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-white\" href=\"index.html#features4-5\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
           "_tags": [
             "Theme"
@@ -205,7 +207,7 @@
             "overlayOpacity": 0.5
           },
           "title": "Get to know us",
-          "caption": "<p>Founded in 2017. We are the Uber of logistics. We think the traditional logistics model is broken. We are breaking the rules when it comes to this. We are on a mission to revolutionize the way you send goods at the tap of a button. Whether you are a small business, a large multinational or just something moved, mover is for you! We charge a Low cost per delivery No silly fees and are ready to deliver your goods at the tap of a button.</p>",
+          "caption": "<p>Founded in 2017. We are the Uber of logistics. We think the traditional logistics model is broken. We are breaking the rules when it comes to this. We are on a mission to revolutionize the way you send goods at the tap of a button. Whether you are a small business, a large multinational or just something moved, mover, is for you! We charge a Low cost per delivery No silly fees and are ready to deliver your goods at the tap of a button.</p>",
           "_tags": [
             "Theme"
           ],
@@ -353,7 +355,7 @@
           },
           "title1": "Save Money",
           "subtitle1": "One Fair Fee",
-          "caption1": "We charge a fair fee. That is it.&nbsp;Low cost per devlivery model. No silly fees.",
+          "caption1": "We charge a fair fee. That is it. Low cost per delivery model. No silly fees.",
           "title2": "Nationwide",
           "subtitle2": "Every County in the UK.",
           "caption2": "One of Mover`s big points is vast reach via our delivery network.",
@@ -482,10 +484,10 @@
           },
           "title1": "On Demand",
           "subtitle1": "We do everything.&nbsp;",
-          "caption1": "Tap in your pick up and drop off location and choose from the best avaliable movers in real time, avaliable that second!",
+          "caption1": "Tap in your pick up and drop off location and choose from the best available movers in real time, available that second!",
           "title2": "Real Time Tracking",
           "subtitle2": "Our network reach out to all sectors.",
-          "caption2": " The sender and receiver has acccess to free real time tracking",
+          "caption2": " The sender and receiver has access to free real-time tracking.",
           "title3": "Small or Large",
           "subtitle3": "We share the love.",
           "caption3": "Choose from our network of bikes, vans or trucks to suit the size of your delivery.&nbsp;",
@@ -509,6 +511,113 @@
           ],
           "_name": "features4",
           "_anchor": "features4-6"
+        },
+        {
+          "_params": {
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": false,
+            "ShowTexts": true,
+            "showButtons": false,
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "columns": "2",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/3-600x400.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media2": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/index2-600x400.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media3": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/coworkers.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "media4": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/code-man.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "media5": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "media6": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title1": "Social Media Login",
+          "subtitle1": "Bootstrap 4 has been noted",
+          "caption1": "Sign up to the app using facebook or google+ without the need of having to use your email and phone number.",
+          "title2": "Select Service Type",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "Select the type of courier service depending on the quantity of items to be delivered and hire easily.",
+          "title3": "Web Fonts",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "title4": "Unlimited Sites",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features3",
+          "_anchor": "features3-d"
         },
         {
           "_styles": {
@@ -535,7 +644,7 @@
             "overlayOpacity": 0.5
           },
           "title": "The Uber of Logistics",
-          "caption": "<p>We like to think of ourselves as the Uber for sending stuff. Download our app enter a pick up and drop off location and send! its that simple!</p>",
+          "caption": "<p>We like to think of ourselves as the Uber for sending stuff. Download our app enter a pickup and drop off location and send! it's that simple!</p>",
           "_tags": [
             "Theme"
           ],
@@ -601,7 +710,7 @@
             "image": {
               "active": true,
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/iphone-838x629.png",
+              "src": "@PROJECT_PATH@/assets/images/image1-1400x934.png",
               "link": "",
               "alt": "",
               "title": ""
@@ -619,7 +728,7 @@
             }
           },
           "title": "WHY MOVER?",
-          "text": "We are always on the look out for new movers as without. well we wouldnt be able to deliver goods in real time for our amazing clients. Each day is different, you may be delivering an urgent order for a fashion brand in the morning to helping a family move house. We belive the future of working is Mover. Get in touch to find out more!<br>",
+          "text": "We are always on the look out for new movers as without. well, we wouldn't be able to deliver goods in real time for our amazing clients. Each day is different, you may be delivering an urgent order for a fashion brand in the morning to helping a family move house. We belive the future of working is Mover. Get in touch to find out more!",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-white\" href=\"index.html#form1-b\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
           "_tags": [
             "Theme"
