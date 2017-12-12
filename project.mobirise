@@ -23,7 +23,7 @@
       "additionalSetColors": []
     },
     "versionFirst": "4.3.0",
-    "uniqCompNum": 14,
+    "uniqCompNum": 15,
     "versionPublish": "4.3.0",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png"
@@ -139,18 +139,18 @@
             "inverse": false,
             "showArrow": true,
             "imageSize": 50,
-            "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/aps-28-1144x763.jpg",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/9-2000x1334.png",
             "parallax": true,
-            "bgColorRadio": true,
+            "bgColorRadio": false,
             "bgColor": "#41a85f",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "overlay": true,
-            "overlayColor": "#000",
-            "overlayOpacity": 0.3
+            "overlayColor": "#000000",
+            "overlayOpacity": "0.8"
           },
           "media": {
             "image": {
@@ -735,6 +735,58 @@
           ],
           "_name": "header2",
           "_anchor": "header2-a"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "inverse": false,
+            "imageSize": 50,
+            "paddingTop": "2",
+            "paddingBottom": "2",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/6-1400x1019.png",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "TOGGLE COURIER AVAILABILITY",
+          "text": "Work when is best for you, You can either say that you are available to work or kick back and toggle off.&nbsp;",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"index.html#form1-b\" data-toolbar=\"-mbrBtnMove\">JOIN</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box5",
+          "_anchor": "msg-box5-e"
         },
         {
           "_params": {
