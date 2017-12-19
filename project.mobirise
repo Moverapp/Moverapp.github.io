@@ -20,7 +20,9 @@
         "isScrollToTopButton": false,
         "isRtl": false
       },
-      "additionalSetColors": []
+      "additionalSetColors": [
+        "#05002e"
+      ]
     },
     "versionFirst": "4.3.0",
     "uniqCompNum": 26,
@@ -52,7 +54,7 @@
             "sticky": true,
             "collapsed": true,
             "transparent": true,
-            "bgColor": "#28324e",
+            "bgColor": "#05002e",
             "fontSize": "0.8",
             "fontName": {
               "name": "Open Sans",
@@ -94,13 +96,13 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#171c2c"
+              "background": "#000000"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#232c44!important"
+              "background": "#03001f!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#28324e"
+              "background": "#05002e"
             },
             ".bg-color.transparent .link": {
               "color": "#ffffff",
@@ -179,7 +181,7 @@
             "bgImage": "@THEME_PATH@/components/_images/desert2.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#28324e",
+            "bgColor": "#05002e",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -854,7 +856,7 @@
             "bgImage": "@THEME_PATH@/components/_images/desert.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#28324e",
+            "bgColor": "#05002e",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -1144,7 +1146,7 @@
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#28324e",
+            "bgColor": "#05002e",
             "overlay": true,
             "overlayColor": "#444444",
             "overlayOpacity": 0.8
