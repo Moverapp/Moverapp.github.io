@@ -7,6 +7,7 @@
 
 
 
+
 body,
 input,
 textarea,
@@ -504,6 +505,9 @@ h6,
   background-color: #f2f2f2;
   border-color: #f2f2f2;
 }
+#slider-q P {
+  font-family: 'Raleway', sans-serif;
+}
 #msg-box8-8 .mbr-section-title,
 #msg-box8-8 p {
   color: #fff;
@@ -511,6 +515,9 @@ h6,
 #header1-n .mbr-section-lead {
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
+}
+#features1-r .striped .mbr-cards-col:nth-child(2n+1) {
+  background-color: #05002e;
 }
 #form1-b .form-control-label {
   color: #232323;
