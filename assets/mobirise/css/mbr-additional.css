@@ -517,7 +517,17 @@ h6,
   font-size: 20px;
 }
 #features1-r .striped .mbr-cards-col:nth-child(2n+1) {
-  background-color: #05002e;
+  background-color: #ffffff;
+}
+#features1-r .mbr-cards-col:nth-child(odd) .card-text {
+  color: #000000;
+}
+#features1-r .mbr-cards-col:nth-child(odd) .card-title {
+  color: #000000;
+}
+#msg-box8-s .mbr-section-title,
+#msg-box8-s p {
+  color: #fff;
 }
 #form1-b .form-control-label {
   color: #232323;

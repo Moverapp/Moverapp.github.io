@@ -25,7 +25,7 @@
       ]
     },
     "versionFirst": "4.3.0",
-    "uniqCompNum": 28,
+    "uniqCompNum": 29,
     "versionPublish": "4.3.0",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
@@ -790,7 +790,7 @@
             "showSubtitles": false,
             "ShowTexts": true,
             "showButtons": false,
-            "columnsColor": "#05002e",
+            "columnsColor": "#ffffff",
             "paddingTop": 2,
             "paddingBottom": 2,
             "columns": "3",
@@ -809,7 +809,7 @@
           },
           "media1": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/aps-28-600x400.jpg",
+              "src": "@PROJECT_PATH@/assets/images/aaa-600x375.png",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -831,7 +831,7 @@
           },
           "media3": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/image1-600x400.png",
+              "src": "@PROJECT_PATH@/assets/images/mockup-600x450.png",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -895,9 +895,49 @@
           "_anchor": "features1-r",
           "_styles": {
             ".striped .mbr-cards-col:nth-child(2n+1)": {
-              "background-color": "#05002e"
+              "background-color": "#ffffff"
+            },
+            ".mbr-cards-col:nth-child(odd) .card-text": {
+              "color": "#000000"
+            },
+            ".mbr-cards-col:nth-child(odd) .card-title": {
+              "color": "#000000"
             }
           }
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#fff"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showButton": false,
+            "paddingTop": "2",
+            "paddingBottom": "2",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/desert.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#05002e",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "LETS TALK",
+          "text": "<p>Work when you want.&nbsp;</p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box8",
+          "_anchor": "msg-box8-s"
         },
         {
           "_params": {
