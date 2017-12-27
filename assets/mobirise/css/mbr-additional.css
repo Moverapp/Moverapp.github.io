@@ -529,6 +529,17 @@ h6,
 #features1-r .mbr-cards-col:nth-child(odd) .card-title {
   color: #000000;
 }
+#header3-z .mbr-section-title,
+#header3-z .mbr-section-subtitle {
+  text-align: center;
+}
+#features4-y .card-subtitle {
+  color: #bcbcbc;
+}
+#features4-y .iconbox {
+  background-color: #f2f2f2;
+  border-color: #f2f2f2;
+}
 #msg-box8-s .mbr-section-title,
 #msg-box8-s p {
   color: #fff;
